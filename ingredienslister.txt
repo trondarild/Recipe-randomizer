@@ -1,0 +1,26 @@
+
+self.milkproducts = ['','rømme','fløte','ost','youghurt naturell']
+self.seasoning = ['','karri','jalapenopepper']
+self.meat = ['','kjøttdeig','fiskekaker','kyllingbryst','torsk']
+self.sauces = ['','tacosaus','dolmio']
+self.fruitandvegetables = ['','løk','tomater','hvitløk','purre','gulrot','poteter','chili','gulrøtter']
+self.cansandflasks = ['','wraps','tomater på boks','olivenolje','toro lasagne','pose med brun saus','pose med spansk saus','tacochips','pasta','ris']
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

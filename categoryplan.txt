@@ -1,0 +1,32 @@
+InputParser:
+   __init__ :
+   self.categories = dict()
+
+   def parse(self, fileliststr, numliststr, excludefilename, categoryfilename) :
+
+   # open categoryfile
+   file = open(categoryfilename, 'r')
+   categorylines = file.readlines()
+   # insert into a dictionary of headers and a set of ingredients
+   for line in enumerate(categorylines) :
+      splitline = categorylines[line].split(';')
+      self.categories[splitline[0]] = set(splitline[1].split(','))
+
+OutputFormatter:
+
+   def format(self, headers, components, categories) :
+
+      # group ingredients by category
+      ingredients = ''
+      catcopy = categories.copy()
+      for category in categories:
+         # add intersection of category and components to ingredients
+         catcopy[category].intersection_update(components)
+         if len(catcopy[category]) > 0 :
+            ingredients += category + '\n'
+            for ingredient in catcopy[category] :
+               ingredients += ingredient + ', '
+            ingredients += '\n'
+
+
+RecipeRandomizer:

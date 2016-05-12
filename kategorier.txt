@@ -1,0 +1,5 @@
+Krydder;oregano,karri,jalapenopepper,basilikum,muskat,kajennepepper,cajennepepper,paprikapulver,fajitaskrydder,brun saus
+Kjøtt;kjøttdeig,fiskekaker,kyllingbryst,steinbitkaker,pølser,torsk,fårekjøttdeig,torskefilet,bacon,grillet kylling,reker,laks,ytrefilet
+Sauser;tacosaus,dolmio,chilisaus,glass m søtsur saus,glass m tikka masala,glass med karri
+Meieriprodukter;rømme,fløte,ost,yoghurt naturell,fetaost,egg,smør,melk,meierismør,majones,melangemargarin
+Frukt og grønnsaker;kålrabi,spinat,paprika,løk, tomater,hvitløk,purre,gulrot,poteter,chili,gulrøtter,rødløk,sitron,broccoli,brokkoli,fennikel,salat,frisk koriander,ananas,avocado
